@@ -15,4 +15,5 @@ Cleaning and Filtering
 The type of final production database:
         	We used a relational database, Postgres, to load our final production data.
 The final tables or collections used:
+![unemp](unemployment.png)
 
