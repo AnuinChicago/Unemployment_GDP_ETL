@@ -52,3 +52,5 @@ The final tables or collections used:
 ·       We also dropped duplicate ‘year’, if any were present.
 ·       We set the index to ‘year’ column.
 
+## Load
+Loaded the tables sing PostGresSQL
