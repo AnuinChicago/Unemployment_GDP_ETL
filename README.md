@@ -17,3 +17,11 @@ The type of final production database:
 The final tables or collections used:
 ![unemp](unemployment.png)
 ![gdp](GDP.png)
+
+## Extract:
+### Sources:
+1.     US Unemployment :
+Link: https://www.kaggle.com/tunguz/us-monthly-unemployment-rate-1948-present
+2.     US GDP:
+Link: https://datahub.io/core/gdp-us
+
