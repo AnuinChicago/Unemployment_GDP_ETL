@@ -26,23 +26,23 @@ The final tables or collections used:
 2.US GDP: https://datahub.io/core/gdp-us .
 
 ## Transform:
-1.     Filtering:
- a.     GDP
+1.     Filtering.
+ a.     GDP.
  Process:  
 ·       We filtered out the years before 1948.
 ·       We also filtered out 2 columns: ‘level-chained’ and ‘change-chained’ by creating a copy.
  
- b.     Unemployment
+ b.     Unemployment.
  Process:  
 ·       We filtered out the years after 2015
-2.     Cleaning:
- a.     GDP
+2.     Cleaning.
+ a.     GDP.
  Process:  
 ·       We renamed the column headers. We changed ‘date’ to ‘year’   to match Unemployment.
 ·       We changed ‘level-current’ to ‘level_current’ and ‘change-current’ to ‘change_current’, because ‘level-current’ was a keyword in Postgres.
 ·       We also dropped duplicate ‘year’, if any were present.
 ·       We set the index to ‘year’ column.
- b.     Unemployment
+ b.     Unemployment.
  Process:  
 ·       We renamed the column headers. We changed ‘Year’ to ‘year’ to match GDP.
 ·       We changed all months from 3-letter abbreviation to full undercase name to ensure proper Postgres formatting.
