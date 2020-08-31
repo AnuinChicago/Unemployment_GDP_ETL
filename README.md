@@ -54,4 +54,4 @@ The final tables or collections used:
 ·       We set the index to ‘year’ column.
 
 ## Load
-Loaded the tables sing PostGresSQL
+Loaded the tables sing PostgresSQL
