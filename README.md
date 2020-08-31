@@ -21,8 +21,9 @@ The final tables or collections used:
 ## Extract:
 ### Sources:
 
-1.US Unemploymen: https://www.kaggle.com/tunguz/us-monthly-unemployment-rate-1948-present
-2.US GDP: https://datahub.io/core/gdp-us
+1.US Unemployment: https://www.kaggle.com/tunguz/us-monthly-unemployment-rate-1948-present .
+
+2.US GDP: https://datahub.io/core/gdp-us .
 
 ## Transform:
 1.     Filtering:
